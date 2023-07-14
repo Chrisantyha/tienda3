@@ -7,8 +7,8 @@
 }
 
 .dark{       /* modo oscuro*/
-    background-color: #000;
-    color: aliceblue;
+    background-color: #f3d9d9;
+    color: rgb(233, 8, 8);
 }
 
 
@@ -46,6 +46,7 @@ header{
 
 .container-icon{
     position: relative;
+    color: red;
 }
 
 .count-products{
@@ -115,6 +116,7 @@ header{
 }
 
 .icon-close{
+    color: red;
     width: 25px;
     height: 25px;
 }
@@ -216,6 +218,6 @@ header{
 .in-flex div{
     padding: 25px;
     background-color: darkgreen;
-    margin: 20px;
+    margin: 2px;
 
 }
