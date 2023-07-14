@@ -7,18 +7,18 @@
 }
 
 .dark{       /* modo oscuro*/
-    background-color: #f3d9d9;
+    background-color: #a39c9c;
     color: rgb(233, 8, 8);
 }
 
 
 
 body{
-    background: #657db1;
+    background: #bcc3d3;
     margin: 0 auto;
     max-width: 600px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #161616;
+    color: #47ce69;
 }
 
 .icon-cart{
@@ -42,6 +42,9 @@ header{
     padding: 30px 0 40px 0;
     /*background-color: lightgreen;*/
     
+}
+.container-cart-icon{
+    color: red;
 }
 
 .container-icon{
@@ -163,7 +166,7 @@ header{
 }
 
 .item:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 10px 20px rgba(218, 13, 13, 0.2);
 }
 
 .item img{
@@ -216,7 +219,7 @@ header{
 
 
 .in-flex div{
-    padding: 25px;
+    padding: 5px;
     background-color: darkgreen;
     margin: 2px;
 
