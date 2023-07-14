@@ -128,3 +128,13 @@ const showHTML = () => {
 	valorTotal.innerText = `$${total}`;
 	countProducts.innerText = totalOfProducts;
 };
+
+
+/*para cambiar a modo oscuro*/
+
+let toggle=document.getElementById(`toggle`);
+let label_toggle=document.getElementById("label_toggle");
+toggle.addEventListener("change",(event)=>{
+	let cheked= event.target.cheked;
+	document.body.classList.toggle("dark");
+})

@@ -6,11 +6,18 @@
     box-sizing: border-box;
 }
 
+.dark{       /* modo oscuro*/
+    background-color: #000;
+    color: aliceblue;
+}
+
+
+
 body{
     background: #657db1;
     margin: 0 auto;
-    max-width: 1200px;
-    font-family: 'Lato';
+    max-width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #161616;
 }
 
@@ -145,7 +152,7 @@ header{
 /* Main */
 .container-items{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -203,4 +210,12 @@ header{
 
 .hidden{
     display: none;
+}
+
+
+.in-flex div{
+    padding: 25px;
+    background-color: darkgreen;
+    margin: 20px;
+
 }
